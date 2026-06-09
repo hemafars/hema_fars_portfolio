@@ -55,27 +55,101 @@ function App() {
       </div>
       <div className="content">
         <div className="box" id="home">
-          <img src={portfolio} alt="Project 1" />
+          <img src={portfolio} alt="portfolio" />
           <a href="https://calm-raindrop-c6313f.netlify.app/" target="_blank" rel="noopener noreferrer">
             <h2>portfolio</h2>
           </a>
         </div>
+
         <div className="box" id="home">
           <img src={project2} alt="Project 2" />
+          <a href="https://github.com/yourusername/project2" target="_blank" rel="noopener noreferrer">
+            <h2>project1</h2>
+          </a>
+        </div>
+        <div className="box" id="home">
+          <img src={project2} alt="Project 3" />
           <a href="https://github.com/yourusername/project2" target="_blank" rel="noopener noreferrer">
             <h2>project2</h2>
           </a>
         </div>
         <div className="box" id="home">
-          <img src={project3} alt="Project 3" />
-          <a href="https://github.com/yourusername/project3" target="_blank" rel="noopener noreferrer">
+          <img src={project2} alt="Project 4" />
+          <a href="https://github.com/yourusername/project2" target="_blank" rel="noopener noreferrer">
             <h2>project3</h2>
           </a>
         </div>
         <div className="box" id="home">
-          <img src={project4} alt="Project 4" />
-          <a href="https://github.com/yourusername/project4" target="_blank" rel="noopener noreferrer">
+          <img src={project2} alt="Project 5" />
+          <a href="https://github.com/yourusername/project2" target="_blank" rel="noopener noreferrer">
             <h2>project4</h2>
+          </a>
+        </div>
+        <div className="box" id="home">
+          <img src={project2} alt="Project 6" />
+          <a href="https://github.com/yourusername/project2" target="_blank" rel="noopener noreferrer">
+            <h2>project5</h2>
+          </a>
+        </div>
+
+        <div className="box" id="home">
+          <img src={project2} alt="Project 7" />
+          <a href="https://github.com/yourusername/project2" target="_blank" rel="noopener noreferrer">
+            <h2>project6</h2>
+          </a>
+        </div>
+        <div className="box" id="home">
+          <img src={project2} alt="Project 8" />
+          <a href="https://github.com/yourusername/project2" target="_blank" rel="noopener noreferrer">
+            <h2>project7</h2>
+          </a>
+        </div>
+        <div className="box" id="home">
+          <img src={project2} alt="Project 9" />
+          <a href="https://github.com/yourusername/project2" target="_blank" rel="noopener noreferrer">
+            <h2>project8</h2>
+          </a>
+        </div>
+        <div className="box" id="home">
+          <img src={project2} alt="Project 2" />
+          <a href="https://github.com/yourusername/project2" target="_blank" rel="noopener noreferrer">
+            <h2>project9</h2>
+          </a>
+        </div>
+        <div className="box" id="home">
+          <img src={project2} alt="Project 10" />
+          <a href="https://github.com/yourusername/project2" target="_blank" rel="noopener noreferrer">
+            <h2>project10</h2>
+          </a>
+        </div>
+        <div className="box" id="home">
+          <img src={project2} alt="Project 11" />
+          <a href="https://github.com/yourusername/project2" target="_blank" rel="noopener noreferrer">
+            <h2>project11</h2>
+          </a>
+        </div>
+        <div className="box" id="home">
+          <img src={project2} alt="Project 12" />
+          <a href="https://github.com/yourusername/project2" target="_blank" rel="noopener noreferrer">
+            <h2>project12</h2>
+          </a>
+        </div>
+        <div className="box" id="home">
+          <img src={project2} alt="Project 13" />
+          <a href="https://github.com/yourusername/project2" target="_blank" rel="noopener noreferrer">
+            <h2>project13</h2>
+          </a>
+        </div>
+        <div className="box" id="home">
+          <img src={project3} alt="Project 14" />
+          <a href="https://github.com/yourusername/project3" target="_blank" rel="noopener noreferrer">
+            <h2>project14</h2>
+          </a>
+        </div>
+        <div className="box" id="home">
+          <img src={project4} alt="Project 15" />
+          <a href="https://github.com/yourusername/project4" target="_blank" rel="noopener noreferrer">
+            <h2>project15</h2>
           </a>
         </div>
       </div>
