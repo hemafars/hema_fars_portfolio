@@ -3,7 +3,7 @@
   --main-color: #2E2E32;
   --secondary-color: #B99146;
   --Other-color: #FFFFFF;
-  --section-padding: 25px;
+  --section-padding: 12.5px;
 }
 /* End Variables */
 
@@ -19,7 +19,7 @@ body{
   background: #2E2E32;
 }
 img{
-  width: 100px;
+  width: 50px;
   height: auto;
 }
 .header,.social{
@@ -40,26 +40,26 @@ img{
     flex-direction: column;
 }
 .logo img{
-  width: 184px;
-  height: 184px;
+  width: 100px; 
+  height: 100px;
   border-radius: 25%;
-  margin-bottom: 20px;
-  margin-top: 52px;
+  margin-bottom: 10px;
+  margin-top: 25px;
   }
   .skills{
         display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
+    gap: 10px;
     flex-direction: column;
-    margin-top: 70px;
+    margin-top: 35px;
   }
   .skillsTitle{
-    font-size: 50px;
+    font-size: 25px;
     color: var(--Other-color);  
     text-align: center;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
 
   .skill{
@@ -70,23 +70,23 @@ img{
   }
   .skill h2{
     color: var(--Other-color);
-    margin-left: 20px;
+    margin-left: 10px;
     
   }
   .title{
     color: var(--Other-color);
-    font-size: 30px;
+    font-size: 15px;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     background: var(--secondary-color);
-    padding: 10px;
+    padding: 5px;
     width: 50%;
     text-align: center;
     margin: 0 auto;
-    margin-top: 50px;
-    padding: 30px;
+    margin-top: 25px;
+    padding: 15px;
     border-radius: 10px;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
   }
   .content{
     display: flex;
@@ -96,23 +96,23 @@ img{
   }
 
   .box{
-    width: 40%;
-    height: 400px;
+    width: 35%;
+    height: 200px;
     background: var(--Other-color);
-    margin: 20px;
-    padding: 20px;
-    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
   }
   .box img{
     width: 100%;
     height: 80%;
     object-fit: cover;
     border-radius: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 3px;
   }
   .box h2{
     color: var(--main-color);
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     text-align: center;
   }
 .social{
@@ -123,8 +123,8 @@ img{
   flex-direction: column;
 }
 .social a{
-  font-size: 20px;
-  margin-top: 40px;
+  font-size: 10px;
+  margin-top: 20px;
   text-decoration: none;
 
 }
