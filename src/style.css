@@ -49,7 +49,7 @@ body{
 
   }
   main{
-    overflow-y: scroll
+    overflow-y: scroll;
   }
   .skills{
         display: flex;
