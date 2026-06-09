@@ -1,5 +1,5 @@
 import logo from './midia/img/logo.png';
-import project1 from './midia/img/project1.png';
+import portfolio from './midia/img/portfolio.png';
 import project2 from './midia/img/project2.png';
 import project3 from './midia/img/project3.png';
 import project4 from './midia/img/project4.png';
@@ -55,8 +55,8 @@ function App() {
       </div>
       <div className="content">
         <div className="box" id="home">
-          <img src={project1} alt="Project 1" />
-          <a href="https://github.com/yourusername/project1" target="_blank" rel="noopener noreferrer">
+          <img src={portfolio} alt="Project 1" />
+          <a href="https://calm-raindrop-c6313f.netlify.app/" target="_blank" rel="noopener noreferrer">
             <h2>project1</h2>
           </a>
         </div>
