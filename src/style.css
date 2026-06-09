@@ -3,7 +3,6 @@
   --main-color: #2E2E32;
   --secondary-color: #B99146;
   --Other-color: #FFFFFF;
-  --section-padding: 12.5px;
 }
 /* End Variables */
 
@@ -43,9 +42,9 @@ body{
 .logo img{
   width: 70%; 
   height: auto;
-  border-radius: 25%;
-  margin-bottom: 10px;
-  margin-top: 25px;
+  border-radius: 1.563rem;
+  margin-bottom: 0.625rem;
+  margin-top: 1.563rem;
 
   }
   main{
@@ -55,16 +54,16 @@ body{
         display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 10px;
+    gap: 0.625rem;
     flex-direction: column;
-    margin-top: 35px;
+    margin-top: 2.188rem;
   }
   .skillsTitle{
-    font-size: 25px;
+    font-size: 1.563rem;
     color: var(--Other-color);  
     text-align: center;
     font-weight: bold;
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
   }
 
   .skill{
@@ -75,23 +74,23 @@ body{
   }
   .skill h2{
     color: var(--Other-color);
-    margin-left: 10px;
+    margin-left: 0.625rem;
     
   }
   .title{
     color: var(--Other-color);
-    font-size: 15px;
+    font-size: 0.938rem;
     font-weight: bold;
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
     background: var(--secondary-color);
-    padding: 5px;
+    padding: 0.313rem;
     width: 50%;
     text-align: center;
     margin: 0 auto;
-    margin-top: 25px;
-    padding: 15px;
-    border-radius: 10px;
-    margin-bottom: 25px;
+    margin-top:1.563rem;
+    padding: 0.938rem;
+    border-radius: 0.625rem;
+    margin-bottom: 1.563rem;
   }
   .content{
     display: flex;
@@ -104,14 +103,14 @@ body{
     width: 35%;
     height: auto;
     background: var(--Other-color);
-    margin: 5px;
-    padding: 5px;
-    border-radius: 5px;
+    margin: 0.313rem;
+    padding: 0.313rem;
+    border-radius: 0.313rem;
   }
   .box img{
     height: auto;
-    border-radius: 10px;
-    margin-bottom: 3px;
+    border-radius: 0.625rem;
+    margin-bottom: 0.188rem;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -120,7 +119,7 @@ body{
   }
   .box h2{
     color: var(--main-color);
-    margin-bottom: 5px;
+    margin-bottom: 0.313rem;
     text-align: center;
   }
 .social{
@@ -131,8 +130,8 @@ body{
   flex-direction: column;
 }
 .social a{
-  font-size: 10px;
-  margin-top: 20px;
+  font-size: 0.625rem;
+  margin-top: 1.25rem;
   text-decoration: none;
 
 }
