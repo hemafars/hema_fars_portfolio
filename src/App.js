@@ -57,7 +57,7 @@ function App() {
         <div className="box" id="home">
           <img src={portfolio} alt="Project 1" />
           <a href="https://calm-raindrop-c6313f.netlify.app/" target="_blank" rel="noopener noreferrer">
-            <h2>project1</h2>
+            <h2>portfolio</h2>
           </a>
         </div>
         <div className="box" id="home">
