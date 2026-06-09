@@ -1,0 +1,150 @@
+/* Start Variables */
+:root {
+  --main-color: #2E2E32;
+  --secondary-color: #B99146;
+  --Other-color: #FFFFFF;
+  --section-padding: 25px;
+}
+/* End Variables */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100%;
+  height: 100vh;
+  background: #2E2E32;
+}
+img{
+  width: 100px;
+  height: auto;
+}
+.header,.social{
+  background: var(--secondary-color);
+}
+.container{
+  display: grid;
+  grid-template-areas:
+    " header  main social";
+    grid-template-columns: 1fr 4fr .5fr;
+    height: 100vh;
+}
+.header{
+    grid-area: header;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.logo img{
+  width: 184px;
+  height: 184px;
+  border-radius: 25%;
+  margin-bottom: 20px;
+  margin-top: 52px;
+  }
+  .skills{
+        display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: column;
+    margin-top: 70px;
+  }
+  .skillsTitle{
+    font-size: 50px;
+    color: var(--Other-color);  
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .skill{
+        display: flex;
+    align-content: center;
+    align-items: center;
+      
+  }
+  .skill h2{
+    color: var(--Other-color);
+    margin-left: 20px;
+    
+  }
+  .title{
+    color: var(--Other-color);
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    background: var(--secondary-color);
+    padding: 10px;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+  }
+  .content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .box{
+    width: 40%;
+    height: 400px;
+    background: var(--Other-color);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  .box img{
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  .box h2{
+    color: var(--main-color);
+    margin-bottom: 20px;
+    text-align: center;
+  }
+.social{
+  grid-area: social;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.social a{
+  font-size: 20px;
+  margin-top: 40px;
+  text-decoration: none;
+
+}
+.social a:hover{
+  color: var(--Other-color);
+  transition: 0.3s;
+  scale: 1.5;
+}
+.skill:hover{
+  color: var(--Other-color);
+  transition: 0.3s;
+  scale: 1.5;
+}
+
+.box img:hover{
+  color: var(--Other-color);
+  transition: 0.3s;
+  scale: 1.1;
+}
+a{
+  text-decoration: none;
+  color: var(--main-color);
+}
