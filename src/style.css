@@ -140,7 +140,7 @@ img{
 .skill:hover{
   color: var(--Other-color);
   transition: 0.3s;
-  scale: 1.5;
+  scale: 1.2;
 }
 
 .box img:hover{
