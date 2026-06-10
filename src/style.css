@@ -152,6 +152,12 @@ body{
   justify-content: center;
   flex-direction: column;
 }
+@media (max-width: 48rem) {
+  .social{
+    flex-direction: row;
+  }
+  }
+
 .social a{
   font-size: 0.625rem;
   margin-top: 1.25rem;
