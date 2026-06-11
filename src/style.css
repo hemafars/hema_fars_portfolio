@@ -129,6 +129,10 @@ body{
     padding: 0.313rem;
     border-radius: 0.313rem;
   }
+  @media (max-width:48rem){
+    .box{
+      width:50%;
+    }}
   .box img{
     height: auto;
     border-radius: 0.625rem;
