@@ -1,5 +1,8 @@
 import logo from './midia/img/logo.png';
 import portfolio from './midia/img/portfolio.png';
+
+
+import Prayer_times from './midia/img/Prayer times.png';
 import project2 from './midia/img/project2.png';
 import project3 from './midia/img/project3.png';
 import project4 from './midia/img/project4.png';
@@ -62,9 +65,9 @@ function App() {
         </div>
 
         <div className="box" id="home">
-          <img src={project2} alt="Project 2" />
-          <a href="https://github.com/yourusername/project2" target="_blank" rel="noopener noreferrer">
-            <h2>project1</h2>
+          <img src={Prayer_times} alt="Prayer_times" />
+          <a href="https://gleaming-marzipan-9ce103.netlify.app/" target="_blank" rel="noopener noreferrer">
+            <h2>Prayer times</h2>
           </a>
         </div>
         <div className="box" id="home">
